@@ -1,0 +1,38 @@
+# CODEOWNERS file for document-module-443
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-billing @Armor-test/grp-reporting @Armor-test/squad-cloud
+
+# Directory ownership
+/styles/ @Armor-test/grp-reporting @Armor-test/unit-devops
+/assets/ @Armor-test/dept-logging @Armor-test/unit-devops @Armor-test/squad-database
+/examples/ @Armor-test/squad-performance @Armor-test/team-logging
+/config/ @Armor-test/dept-data @Armor-test/dept-test @Armor-test/dept-notifications
+/plugins/ @Armor-test/dept-identity @Armor-test/squad-reporting @Armor-test/unit-cloud
+/dist/ @Armor-test/dept-ui @Armor-test/squad-ux
+/vendor/ @Armor-test/dept-automation @Armor-test/squad-cache @Armor-test/unit-devops
+/helpers/ @Armor-test/squad-api @Armor-test/dept-release
+/services/ @Armor-test/team-logging @Armor-test/dept-data
+/security/ @Armor-test/squad-cloud @Armor-test/unit-governance @Armor-test/squad-payments
+/test/ @Armor-test/team-frontend @Armor-test/team-governance @Armor-test/dept-notifications
+/pages/ @Armor-test/dept-billing @Armor-test/squad-cloud
+
+# File type ownership
+*.properties @Armor-test/dept-identity @Armor-test/squad-ux
+*.html @Armor-test/dept-reporting @Armor-test/team-governance @Armor-test/dept-automation
+*.cpp @Armor-test/dept-security @Armor-test/dept-identity @Armor-test/squad-research
+*.swift @Armor-test/dept-notifications @Armor-test/squad-reporting @Armor-test/squad-search
+*.proto @Armor-test/squad-api @Armor-test/dept-security @Armor-test/dept-identity
+*.py @Armor-test/dept-security @Armor-test/dept-billing @Armor-test/unit-governance
+*.js @Armor-test/squad-reporting @Armor-test/unit-design
+*.lock @Armor-test/squad-api @Armor-test/team-core
+*.toml @Armor-test/team-reporting @Armor-test/unit-devops @Armor-test/dept-logging
+*.php @Armor-test/grp-reporting @Armor-test/unit-test
+*.json @Armor-test/squad-frontend @Armor-test/dept-reporting @Armor-test/dept-data
+*.graphql @Armor-test/unit-design @Armor-test/squad-qa @Armor-test/grp-ui
+*.c @Armor-test/squad-product @Armor-test/squad-research
+*.java @Armor-test/grp-integration @Armor-test/squad-research @Armor-test/squad-qa
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
